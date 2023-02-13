@@ -1,0 +1,166 @@
+*{    margin: 0;
+    padding: 0;    border: 0;
+    outline: 0;    list-style: none;
+    box-sizing: border-box;}
+body {
+    background-image: url(https://wallpapers-fenix.eu/full/141214/103210637.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+h1 {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 50px;
+    color: #fff;
+    text-shadow: 0 0 4px #000;
+    text-transform: capitalize;
+}
+.container {
+    margin: 0 auto;
+    width: 1000px;
+    backdrop-filter: blur(20px);
+    border-radius: 20px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+.card-1 {
+    width: 250px;
+    height: 350px;
+    background-color: rgb(198, 27, 27);
+    border-radius: 20px;
+    padding: 20px;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Nike_mag_flight_club.jpg/640px-Nike_mag_flight_club.jpg);
+    background-size: cover;
+    background-position: 30% 50% ;
+    display: flex;
+    flex-direction: column ;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+.card-1_title {
+    text-align: center;
+    font-size: 40px;
+    color: #fff;
+    text-shadow: 0 0 4px #000;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: 2s;
+
+}
+.card-1_text {
+    background-color: rgb(185, 21, 21);
+    width: 250px;
+    text-align: center;
+    font-size: 20px;
+    color: #fff;
+    text-shadow: 0 0 4px #000;
+    transition: 3s;
+}
+.card-1:hover .card-1_text{
+width: 150px;
+background-color: rgb(68, 6, 6);
+border-radius: 30px;
+}
+.card-1:hover .card-1_title{
+    letter-spacing: 10px;
+}
+.card-1__services {
+    background-color: #fff;
+    width: 250px;
+    display: flex;
+    justify-content: space-around;
+    transition: 1s;
+}
+.card-1:hover .card-1__services {
+padding: 0 50px;
+}
+.service-1 {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Instagram-Icon.png/640px-Instagram-Icon.png);
+    background-size: cover;
+}
+.service-2 {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-image: url(https://www.facebook.com/images/fb_icon_325x325.png);
+    background-size: cover;
+}
+.card-2 {
+    width: 250px;
+    height: 350px;
+    background: linear-gradient(rgb(102, 185, 229),rgb(41, 126, 187),rgb(117, 202, 255));
+    border-radius: 20px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.card-2:hover {
+    background: linear-gradient(rgb(142, 223, 255), rgb(92, 151, 255),rgb(142, 223, 255));
+}
+.card-2__image {
+    background-image: url(https://ireland.apollo.olxcdn.com/v1/files/v40ljw6ndjug2-UA/image);
+    background-size: cover;
+    background-position: 40% 0;
+    width: 100px;
+    margin-right: 10px;
+    height: 100px;
+    border-radius:50% ;
+}
+.card-2__title {
+    font-size: 25px;
+    text-transform: uppercase;
+    text-shadow: 0 0 6px #000;
+    transition: 1s;
+}
+.card-2:hover .card-2__title {
+    text-shadow: -10px 10px 6px #000;
+}
+.card-3 {
+    width: 250px;
+    height: 350px;
+    background-image: url(https://adidas-kiev.com/image/catalog/obuv1.gif);
+    background-size:160%;
+    background-position: -20px 0px;
+    padding: 20px;
+    cursor: pointer;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    transition: 1s;
+}
+.card-3:hover {
+    background-image: url(https://pbs.twimg.com/profile_images/1564299301123137545/d1yZqve6_400x400.png);
+    background-size: cover;
+}
+.card-3__head {
+    display: flex;
+    justify-content: space-between;
+}
+.card-3__title {
+    color: #fff;
+    padding: 10px 20px;
+    background-color: rgb(195, 20, 20);
+}
+.card-3__price {
+    color: #fff;
+    padding: 13px 20px;
+    background-color: rgb(195, 20, 20);
+}
+.card-3__image {
+    margin: 0 auto;
+    width: 60px;
+    border-radius: 50%;
+}
+.card-3__button {
+    color: #fff;
+    color: #000;
+margin: 0 auto;
+}
+    
